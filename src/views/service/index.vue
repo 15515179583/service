@@ -1,5 +1,5 @@
 <template>
-  <div class="table-container">
+  <div class="service-table">
     <vab-query-form>
       <vab-query-form-left-panel>
         <el-button icon="el-icon-plus" type="primary" @click="handleAdd">添加</el-button>
