@@ -20,7 +20,7 @@
         </div>
       </div>
       <div class="vab-main main-padding">
-        <ad></ad>
+        <!--        <ad></ad>-->
         <app-main></app-main>
       </div>
     </div>
@@ -43,7 +43,7 @@
           <nav-bar></nav-bar>
           <tags-bar v-if="tagsBar === 'true' || tagsBar === true" />
         </div>
-        <ad></ad>
+        <!--        <ad></ad>-->
         <app-main></app-main>
       </div>
     </div>

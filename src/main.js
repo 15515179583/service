@@ -5,6 +5,7 @@ import App from "./App";
 import store from "./store";
 import router from "./router";
 import "./plugins";
+
 if (process.env.NODE_ENV === "preview") {
   const { mockXHR } = require("../mock/static");
   mockXHR();
