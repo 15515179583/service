@@ -5,9 +5,9 @@
 </template>
 
 <script>
-import FlowPanel from "@/components/EasyFlow/panel";
+import FlowPanel from "@/views/template/components/panel";
 import "element-ui/lib/theme-chalk/index.css";
-import "@/components/EasyFlow/index.css";
+import "@/views/template/components/index.css";
 export default {
   name: "Detail",
   components: { FlowPanel },

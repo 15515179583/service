@@ -31,16 +31,6 @@
     "type": "git",
     "url": "git+https://github.com/chuzhixin/vue-admin-beautiful.git"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "src/**/*.{js,vue}": [
-      "eslint --fix"
-    ]
-  },
   "dependencies": {
     "axios": "^0.19.2",
     "better-scroll": "^1.15.2",

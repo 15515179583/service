@@ -112,7 +112,7 @@ export const asyncRoutes = [
       {
         path: "template",
         name: "Template",
-        component: () => import("@/views/template/index"),
+        component: () => import("@/views/template/list"),
         meta: {
           title: "列表",
           icon: "ambulance",
@@ -122,7 +122,7 @@ export const asyncRoutes = [
       {
         path: "template-detail",
         name: "TemplateDetail",
-        component: () => import("@/views/template/detail"),
+        component: () => import("@/views/template/config"),
         meta: {
           title: "模板配置",
           icon: "ambulance",
