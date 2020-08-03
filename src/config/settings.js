@@ -9,7 +9,7 @@ module.exports = {
   outputDir: "dist",
   // 放置生成的静态资源 (js、css、img、fonts) 的 (相对于 outputDir 的) 目录。
   assetsDir: "static",
-  // 开发环境每次保存时是否输出为eslint编译警告
+  // 开发环境每次保存时是否输出为eslint编译警告1
   lintOnSave: false,
   // 进行编译的依赖
   transpileDependencies: ["vue-echarts", "resize-detector", "zx-layouts"],
@@ -19,7 +19,7 @@ module.exports = {
       ? "vab-mock-server"
       : "http://your.website.com",
   //标题 （包括初次加载雪花屏的标题 页面的标题 浏览器的标题）
-  title: "vue-admin-beautiful",
+  title: "自助服务平台",
   //简写
   abbreviation: "vab",
   //开发环境端口号

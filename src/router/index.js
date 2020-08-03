@@ -51,7 +51,6 @@ export const asyncRoutes = [
           affix: true,
         },
       },
-
     ],
   },
   {
@@ -91,15 +90,43 @@ export const asyncRoutes = [
     path: "/control",
     component: Layout,
     redirect: "service",
+    meta: { title: "服务管理" },
     children: [
       {
         path: "service",
         name: "Service",
         component: () => import("@/views/service/index"),
         meta: {
-          title: "服务管理",
+          title: "服务列表",
           icon: "ambulance",
-          affix: true,
+        },
+      },
+    ],
+  },
+  {
+    path: "/template",
+    component: Layout,
+    redirect: "template",
+    meta: { title: "数据模板" },
+    children: [
+      {
+        path: "template",
+        name: "Template",
+        component: () => import("@/views/template/list"),
+        meta: {
+          title: "列表",
+          icon: "ambulance",
+          //affix: true,
+        },
+      },
+      {
+        path: "template-detail",
+        name: "TemplateDetail",
+        component: () => import("@/views/template/config"),
+        meta: {
+          title: "模板配置",
+          icon: "ambulance",
+          //affix: true,
         },
       },
     ],

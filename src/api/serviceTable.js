@@ -4,11 +4,12 @@ export function getList(data) {
   return request({
     url: "/v1/service",
     method: "get",
-    params: {
-      index: data.index,
-      count: data.count,
-    },
+    params: data,
   });
+}
+
+export function getServiceList(data) {
+  return getList(data);
 }
 
 export function doEdit(data) {

@@ -20,7 +20,7 @@
           label-position="left"
         >
           <div class="title">
-            hello !
+            Welcome!
           </div>
           <div class="title-tips">欢迎来到{{ title }}！</div>
           <el-form-item style="margin-top: 40px;" prop="userName">
@@ -66,9 +66,6 @@
             @click="handleLogin"
             >登录
           </el-button>
-          <router-link to="/register">
-            <div style="margin-top: 20px;">注册</div>
-          </router-link>
         </el-form>
       </el-col>
     </el-row>
